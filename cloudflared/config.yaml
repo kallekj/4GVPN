@@ -1,0 +1,7 @@
+tunnel: UUID
+credentials-file: /home/pi/.cloudflared/UUID.json
+
+ingress:
+   - hostname: ssh.djervbrant.nu
+     service: ssh://localhost:22
+   - service: http_status:404

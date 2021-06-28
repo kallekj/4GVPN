@@ -1,0 +1,13 @@
+[Unit]
+Description=Enable or Disable the sim7600 hat
+Conflicts=reboot.target
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/pi/enable-disable_sim7600.sh
+ExecStop=/home/pi/enable-disable_sim7600.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
