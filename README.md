@@ -14,6 +14,7 @@ My setup for remote 4G VPN on Raspberry Pi using Sim7600e.
 * https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=224355&p=1450784#p1450784
 * https://www.raspberrypi.org/forums/viewtopic.php?t=206761#p1368015
 * https://embeddedpi.com/documentation/3g-4g-modems/raspberry-pi-sierra-wireless-mc7304-modem-qmi-interface-setup
+* https://embeddedpi.com/documentation/3g-4g-modems/raspberry-pi-sierra-wireless-mc7455-modem-raw-ip-qmi-interface-setup
 
 ### wwan0 to eth0
 * https://serverfault.com/questions/152363/bridging-wlan0-to-eth0
