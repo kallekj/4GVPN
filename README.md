@@ -21,4 +21,6 @@ My setup for remote 4G VPN on Raspberry Pi using Sim7600e.
 * https://raspberrypi.stackexchange.com/questions/103572/pi-as-dhcp-server-but-getting-unknown-interface-eth0-with-dnsmasq
 * https://raspberrypi.stackexchange.com/questions/88214/setting-up-a-raspberry-pi-as-an-access-point-the-easy-way/88234#88234
 * https://raspberrypi.stackexchange.com/questions/108592/use-systemd-networkd-for-general-networking/108593#108593
-
+* https://community.sixfab.com/t/qmi-how-to-share-wwan0-with-eth0/830
+* https://eco-sensors.ch/router-wifi-4g-hotspot/#eth0
+* https://newjerseystyle.github.io/en/2020/Raspberry-Pi-as-4G-LTE-Router/
