@@ -1,0 +1,11 @@
+[Match]
+Name=wl*
+
+[Network]
+LLMNR=no
+LinkLocalAddressing=no
+MulticastDNS=yes
+DHCP=ipv4
+
+[DHCP]
+RouteMetric=20
