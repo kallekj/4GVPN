@@ -3,12 +3,15 @@ My setup for remote 4G VPN on Raspberry Pi using Sim7600e.
 
 
 ## Links
+These are the sources i've been researching in order to setup everything.
 
 ### Cloudflared DNS over HTTPS and Tunnel
 * https://github.com/cloudflare/cloudflared
 * https://docs.pi-hole.net/guides/dns/cloudflared/
 * https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service
 * https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/configuration/ingress
+* https://gist.github.com/sbooth/640cb1c5f7a4910782087fbe0dad42ea
+`mv /lib/systemd/system/dnscrypt-proxy.socket .`
 
 ### SIM7600e
 * https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=224355&p=1450784#p1450784
