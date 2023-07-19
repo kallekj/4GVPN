@@ -95,7 +95,7 @@ $ sudo iptables -t nat -A POSTROUTING -o usb0 -j MASQUERADE
 $ sudo iptables -A FORWARD -i usb0 -o eth0 -m state --state RELATED,ESTABLISHED -j ACCEPT  
 $ sudo iptables -A FORWARD -i eth0 -o usb0 -j ACCEPT
 ```
-8. Test if the configuration works before we make the NAT persistent. Connect a system via ethernet and ping 8.8.8.8 and google.com on the connected system to test if forwarding and DNS works, if it does then continue. If it doesn't work, you most probably have another default route enabled (like wlan0). This was my case so I had to disable the onboard WiFi, go to step x.
+8. Test if the configuration works before we make the NAT persistent. Connect a system via ethernet and ping 8.8.8.8 and google.com on the connected system to test if forwarding and DNS works, if it does then continue. If it doesn't work, you most probably have another default route enabled (like wlan0). This was my case so I had to disable the onboard WiFi, go to step 10.
 ```bash
 $ ping 8.8.8.8
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
@@ -103,7 +103,7 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=1 ttl=51 time=22.9 ms
 64 bytes from 8.8.8.8: icmp_seq=3 ttl=51 time=69.7 ms
 ```
-10. If the configuration works, the we can save the NAT config.
+9. If the configuration works, the we can save the NAT config.
 ```bash
 $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 ```
